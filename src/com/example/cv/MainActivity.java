@@ -200,7 +200,7 @@ private  class EfficientAdapter extends BaseAdapter {
 @Override
 public void onClick(View v) {
 	// TODO Auto-generated method stub
-	System.out.print("");
+	System.out.print("xfgbf");
 }	
 	
 }

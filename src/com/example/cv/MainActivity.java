@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
@@ -34,7 +35,7 @@ import com.example.cv.entity.InventoryDetail;
 import com.example.cv.entity.InventoryWrapper;
 import com.google.gson.Gson;
 
-public class MainActivity extends Activity{
+public class MainActivity extends Activity implements OnClickListener{
 	
 	private RequestQueue mVolleyQueue;
 	private InventoryWrapper mInventoryWrapper;
@@ -194,6 +195,12 @@ private  class EfficientAdapter extends BaseAdapter {
             ImageView image;
         }	
         
-	}	
+	}
+
+@Override
+public void onClick(View v) {
+	// TODO Auto-generated method stub
+	
+}	
 	
 }
